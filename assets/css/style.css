@@ -214,6 +214,7 @@ hr {
 .input-name {
     padding-bottom: 10px;
     font-family: Arial;
+    font-size: 16px;
 }
 input {
     width: 100%;
@@ -221,6 +222,7 @@ input {
     margin-bottom: 20px;
     padding: 10px 10px;
     border: 1px solid #dddddd;
+    font-size: 16px;
 }
 
 textarea {
@@ -228,8 +230,9 @@ textarea {
     width: 100%;
     margin-bottom: 20px;
     font-family: wingdings;
-    font-size: 20px;
-    border: 1px solid #dddddd
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    padding: 10px;
 }
 
 button {
@@ -243,7 +246,7 @@ button:hover {
     border-style: solid;
     border-color: #4aaaa5;
     color: #4aaaa5;
-    background: #ffffff;
+    background: #dddddd;
 }
 
 a {
