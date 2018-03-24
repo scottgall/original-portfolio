@@ -230,9 +230,10 @@ button {
 }
 
 button:hover {
-    border-style: solid 2px;
-    border-color: peachpuff;
-    color: peachpuff;
+    border-style: solid;
+    border-color: #4aaaa5;
+    color: #4aaaa5;
+    background: #ffffff;
 }
 
 a {
