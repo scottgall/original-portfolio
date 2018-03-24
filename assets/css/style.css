@@ -15,7 +15,8 @@
     height: 2px;
     background: #cccccc;
     width: 100%;
-    position: fixed;
+    position: relative;
+    min-width: 960px;
 }
 
 #header:after {
@@ -63,7 +64,9 @@
     border: 2px solid #dddddd;
     padding: 20px 20px;
     margin-top: 20px;
-    margin-bottom: 0px;
+    min-height: 400px;
+    margin-bottom: 70px;
+    clear: both;
 }
 
 #main:after {
@@ -110,6 +113,7 @@ hr {
     bottom: 0;
     width: 100%;
     height: 50px;
+    margin-top: 100px;
 }
 
 #copyright {
@@ -147,6 +151,7 @@ hr {
 #content-container {
     width: 960px;
     margin: auto;
+    margin-bottom: 500;
 }
 
 #portfolio {
@@ -158,6 +163,7 @@ hr {
     padding: 20px 20px;
     margin-top: 20px;
     float: left;
+    margin-bottom: 70px;
 }
 
 #portfolio:after {
@@ -214,13 +220,16 @@ input {
     height: 40px;
     margin-bottom: 20px;
     padding: 10px 10px;
+    border: 1px solid #dddddd;
 }
 
-#big-input {
+textarea {
     height: 250px;
-    padding-top: 10px;
-    padding-bottom: 220px;
+    width: 100%;
+    margin-bottom: 20px;
     font-family: wingdings;
+    font-size: 20px;
+    border: 1px solid #dddddd
 }
 
 button {
