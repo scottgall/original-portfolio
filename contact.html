@@ -7,33 +7,52 @@
             </head>
             <body background="assets/images/background.png">
                 <div id="header">
-                    <p id="name">Scott Gall</p>
-                    <p class="menu">About</p>
-                    <p class="menu">Portfolio</p>
-                    <p class="menu">Contact</p>
-                </div>
-                <div id="main">
-                    <div id="contact-box">
-                        <h1>Contact</h1>
-                        <hr>
-                        <p>Name</p>
-                        <input>
-                        <p>Email</p>
-                        <input>
-                        <p>Message</p>
-                        <input>
-                        <button>Submit</button>
+                        <div id="header-content">
+                            <p id="name">Scott Gall</a></p>
+                            <p class="menu"><a href="contact.html">Contact</a></p>
+                            <p class="menu">|</p>                            
+                            <p class="menu"><a href="portfolio.html">Portfolio</a></p>
+                            <p class="menu">|</p>
+                            <p class="menu"><a href="index.html">About</a></p>
+                        </div>
+                        <hr id="border">
                     </div>
-                    <div id="connect-box">
-                        <p>Connect with me</p>
+               
+                <div id="content-container">
+                    <div id="portfolio">
+                        <h1 id="about-me">Contact</h1>
                         <hr>
-                        <img class="connect-link" src="assets/images/scott.jpg" alt="Scott">
-                        <img class="connect-link" src="assets/images/scott.jpg" alt="Scott">
-                        <img class="connect-link" src="assets/images/scott.jpg" alt="Scott">
+                        <div id="contact-box">
+                                <p class="input-name">Name</p>
+                                <input class="small-input" placeholder="John Smith">
+                                <p class="input-name">Email</p>
+                                <input class="small-input" placeholder="example@gmail.com">
+                                <p class="input-name">Message</p>
+                                <input id="big-input">
+                                <button>Submit</button>
+                        </div>
+                    </div>
+                    
+                    <div id="connect-container">
+                        <h2 id="social-header">Connect with me</h2>
+                        <hr> 
+                        <div class="social-container">
+                            <a href="https://github.com/scottgall" target="_blank"><img class="social-pic" src="assets/images/social1.png" alt="github logo"></a>
+                        </div>
+                        <div class="social-container">
+                            <a href="https://www.linkedin.com/in/ScottArthurGall" target="_blank"><img class="social-pic" src="assets/images/social2.png" alt="linkedin logo"></a>
+                        </div>
+                        <div class="social-container">
+                            <a href="about:blank" target="blank"><img class="social-pic" src="assets/images/social3.png" alt="stack overflow logo"></a>
+                        </div>        
                     </div>
                 </div>
+                
                 <div id="footer">
-                    Copyright &#169;
+                    <div id="copyright">
+                            &#169 Copyright 2018 Scott Gall
+                    </div>
                 </div>
+            
             </body>
         </html>

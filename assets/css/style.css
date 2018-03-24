@@ -5,6 +5,8 @@
 #header {
     width: 100%;
     background: #ffffff;
+    height: 50px
+    position: fixed;
 }
 
 #border {
@@ -37,7 +39,7 @@
     line-height: 50px;
     white-space: nowrap;
     color: #ffffff;
-    padding: 0px 15px;
+    padding: 0px 30px;
     font-family: Georgia;
     font-size: 20px;
     font-weight: bold;
@@ -60,7 +62,8 @@
     color: #777777;
     border: 2px solid #dddddd;
     padding: 20px 20px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 #main:after {
@@ -74,12 +77,16 @@
     color: #4aaaa5;
     font-size: 20px;
     font-weight: bold;
+    padding: 0px 0px 20px 0px;
+    height: 40px;
 }
 
 hr {
     background-color: #dddddd;
     height: 2px;
     border: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 #index-pic {
@@ -96,7 +103,7 @@ hr {
 #footer {
     background: #666666;
     border-top-style: solid;
-    border-width: 7px;
+    border-width: 4px;
     border-color: #4aaaa5;
     position: fixed;
     bottom: 0;
@@ -111,28 +118,134 @@ hr {
     font-family: Arial;
     height: 40px;
     color: #ffffffb4;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
-
-.img-container {
+.pic-container {
     height: 200px;
     width: 200px;
     float: left;
+    margin: 13px;
 }
-.image {
-    height: 100%;
+
+.pic {
     width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.bar {
+    background: #4aaaa5;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#content-container {
+    width: 960px;
+    margin: auto;
+}
+
+#portfolio {
+    width: 725px;
+    background: #ffffff;
+    margin: auto;
+    color: #777777;
+    border: 2px solid #dddddd;
+    padding: 20px 20px;
+    margin-top: 20px;
     float: left;
 }
 
-.content {
-    background: #4aaaa5;
+#portfolio:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#connect-container {
+    width: 215px;
+    background: #ffffff;
+    margin: auto;
+    color: #777777;
+    border: 2px solid #dddddd;
+    padding: 20px 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+#connect-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#social-header {
+    font-family: Georgia;
+    color: #4aaaa5;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0px 15px 0px;
+    height: 40px;
+}
+
+.social-container {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 0px 3.5px;
+}
+
+.social-pic {
     width: 100%;
-    height: 20px;
-    text-align: center;
-    padding: 5px;
-    color: #cccccc;
-    position: relative;
-    bottom: 20px;
+    height: 100%;
+    object-fit: fill;
+}
+
+.input-name {
+    padding-bottom: 10px;
+    font-family: Arial;
+}
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+#big-input {
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 220px;
+    font-family: wingdings;
+}
+
+button {
+    padding: 10px 25px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+button:hover {
+    border-style: solid 2px;
+    border-color: peachpuff;
+    color: peachpuff;
+}
+
+a {
+    color: #777777;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+::placeholder {
+    color: #dddddd;
 }
