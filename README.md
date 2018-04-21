@@ -1,2 +1,2 @@
-# scottgall.github.io
-portfolio
+originalPortfolio
+
